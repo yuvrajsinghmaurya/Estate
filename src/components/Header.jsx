@@ -4,13 +4,13 @@ import Navbar from './Navbar'
 // import framer motion 
 import { motion } from "motion/react"
 
+import headerImage from './assets/header_img.png'
+
 function Header() {
   return (
     <div
       className="min-h-screen mb-4 bg-center bg-cover bg-no-repeat flex items-center overflow-hidden"
-     style={{ backgroundImage: "url('./assets/header_img.png')" }}
-
-
+      style={{ backgroundImage: `url(${headerImage})` }}
       id="Header"
     >
         {/* add navbar componenet */}
