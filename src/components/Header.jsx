@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 // import framer motion 
 import { motion } from "motion/react"
 
-import headerImage from './assets/header_img.png'
+import headerImage from './assets/header_img.png'; // adjust if file is deeper
 
 function Header() {
   return (
