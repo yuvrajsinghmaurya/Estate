@@ -8,7 +8,8 @@ function Header() {
   return (
     <div
       className="min-h-screen mb-4 bg-center bg-cover bg-no-repeat flex items-center overflow-hidden"
-      style={{ backgroundImage: "url('./assets/header_img.png')" }}
+     style={{ backgroundImage: "url('./assets/header_img.png')" }}
+
 
       id="Header"
     >
